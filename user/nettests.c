@@ -1,8 +1,9 @@
-#include "kernel/types.h"
-#include "kernel/net.h"
-#include "kernel/stat.h"
-#include "user/user.h"
+#include "../kernel/types.h"
+#include "../kernel/net.h"
+#include "../kernel/stat.h"
+#include "user.h"
 
+#define NET_TESTS_PORT 26099
 //
 // send a UDP packet to the localhost (outside of qemu),
 // and receive a response.

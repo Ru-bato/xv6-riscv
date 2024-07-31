@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "semaphore": "c",
+        "stop_token": "c",
+        "net.h": "c",
+        "types.h": "c",
+        "stat.h": "c",
+        "user.h": "c"
+    }
+}
